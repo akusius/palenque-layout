@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PalenqueLayout serialized="$layoutSerialized">
+  <Items>
+    <!-- ^^ -->
+    <Item num="$num">
+      <Type>$type</Type>
+      <X>$x</X>
+      <Y>$y</Y>
+    </Item>
+    <!-- $$ -->
+  </Items>
+</PalenqueLayout>

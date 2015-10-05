@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>The Palenque Code – Layout Item Data</title>
+    <style>
+      table.item-data {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+
+      table.item-data th {
+        border: 1px solid black;
+        border-bottom: 2px solid black;
+        padding: .5em;
+        width: 3em;
+      }
+
+      table.item-data td {
+        border: 1px solid black;
+        padding: .5em;
+        text-align: center;
+      }
+
+      p.layout {
+        margin-top: 2em;
+        font-size: smaller;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Palenque Code</h1>
+    <h2>Layout Item Data</h2>
+    <table class="item-data">
+      <thead>
+        <tr>
+          <th title="Number">#</th>
+          <th title="Type">T</th>
+          <th title="X coordinate">X</th>
+          <th title="Y coordinate">Y</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- ^^ -->
+        <tr>
+          <td>$num</td>
+          <td title="$typeDesc">$type</td>
+          <td>$x</td>
+          <td>$y</td>
+        </tr>
+        <!-- $$ -->
+      </tbody>
+    </table>
+    <p class="layout">$layoutSerialized</p>
+  </body>
+</html>

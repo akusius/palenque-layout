@@ -1,0 +1,10 @@
+The Palenque Code
+Layout Item Data
+
+|-----|-----|-----|-----|
+|  #  |  T  |  X  |  Y  |
+|-----|-----|-----|-----|
+^^|$num|$type|$x|$y|$$
+|-----|-----|-----|-----|
+
+$layoutSerialized
